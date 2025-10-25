@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>YUI SCRIPT — Mobile Legends Scripts</title>
+<style>
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f9;
+  text-align: center;
+  padding: 40px 20px;
+  color: #2c3e50;
+}
+h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+h1 span {
+  color: #0078D7;
+}
+p.subtitle {
+  color: #555;
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+
+/* === GRID UTAMA === */
+.nav-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 20px;
+  max-width: 850px;
+  margin: 0 auto 40px auto;
+}
+.nav-card {
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  text-decoration: none;
+  color: #2c3e50;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+}
+.nav-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 14px rgba(0,120,215,0.4);
+}
+.nav-card img {
+  width: 100%;
+  height: 130px;
+  object-fit: cover;
+  background: #ddd;
+}
+.nav-card span {
+  display: block;
+  padding: 15px 0;
+  background: #0078D7;
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+  text-transform: uppercase;
+  transition: background 0.3s;
+}
+.nav-card:hover span {
+  background: #005bb5;
+}
+
+footer {
+  margin-top: 60px;
+  font-size: 14px;
+  color: #888;
+}
+</style>
+</head>
+<body>
+  <header>
+    <h1><span>YUI SCRIPT</span></h1>
+    <p class="subtitle">Kumpulan Script Mobile Legends — Update Setiap Minggu!</p>
+  </header>
+
+  <main>
+    <div class="nav-grid">
+      <a href="assassin.html" class="nav-card">
+        <img src="https://static.wikia.nocookie.net/mobile-legends/images/a/a2/Hero561-portrait.png" alt="Assassin">
+        <span>Assassin</span>
+      </a>
+
+      <a href="fighter.html" class="nav-card">
+        <img src="https://static.wikia.nocookie.net/mobile-legends/images/2/2c/Hero851-portrait.png" alt="Fighter">
+        <span>Fighter</span>
+      </a>
+
+      <a href="mage.html" class="nav-card">
+        <img src="https://static.wikia.nocookie.net/mobile-legends/images/8/8e/Hero251-portrait.png" alt="Mage">
+        <span>Mage</span>
+      </a>
+
+      <a href="marksman.html" class="nav-card">
+        <img src="https://static.wikia.nocookie.net/mobile-legends/images/5/58/Hero181-portrait.png" alt="Marksman">
+        <span>Marksman</span>
+      </a>
+
+      <a href="tank.html" class="nav-card">
+        <img src="https://static.wikia.nocookie.net/mobile-legends/images/b/b8/Hero061-portrait.png" alt="Tank">
+        <span>Tank</span>
+      </a>
+
+      <a href="support.html" class="nav-card">
+        <img src="https://static.wikia.nocookie.net/mobile-legends/images/6/6b/Hero551-portrait.png" alt="Support">
+        <span>Support</span>
+      </a>
+    </div>
+  </main>
+
+  <footer>© 2025 YUI SCRIPT | All Rights Reserved</footer>
+</body>
+</html>

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Support Scripts — YUI SCRIPT</title>
+<style>
+/* === GRID NAVIGASI === */
+.nav-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  gap: 10px;
+  max-width: 700px;
+  margin: 20px auto;
+}
+.nav-grid a {
+  display: block;
+  background: #0078D7;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  padding: 12px 0;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: all 0.25s ease;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+.nav-grid a:hover, .nav-grid a.active {
+  background: #005bb5;
+  transform: translateY(-3px);
+  box-shadow: 0 4px 10px rgba(0,120,215,0.4);
+}
+
+/* === HERO GRID === */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f9;
+  text-align: center;
+  padding: 20px;
+  color: #2c3e50;
+}
+h1 a {
+  color: #2c3e50;
+  text-decoration: none;
+}
+h2 {
+  margin-top: 30px;
+}
+.hero-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 30px;
+}
+.hero-item {
+  width: 180px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  text-align: center;
+  padding: 10px;
+  transition: all 0.3s ease;
+}
+.hero-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(0,120,215,0.5);
+}
+.hero-item img {
+  width: 100%;
+  border-radius: 6px;
+  background: #ddd; /* Placeholder abu-abu */
+  aspect-ratio: 1/1;
+}
+.hero-item a {
+  display: block;
+  margin-top: 8px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #0078D7;
+}
+.hero-item a:hover {
+  text-decoration: underline;
+}
+footer {
+  margin-top: 40px;
+  font-size: 14px;
+  color: #888;
+}
+</style>
+</head>
+<body>
+<header>
+  <h1><a href="index.html">YUI SCRIPT</a></h1>
+
+  <!-- 🔹 Navigasi Grid -->
+  <div class="nav-grid">
+    <a href="assassin.html">Assassin</a>
+    <a href="fighter.html">Fighter</a>
+    <a href="mage.html">Mage</a>
+    <a href="marksman.html">Marksman</a>
+    <a href="tank.html">Tank</a>
+    <a href="support.html" class="active">Support</a>
+  </div>
+</header>
+
+<main>
+  <h2>Support Scripts</h2>
+
+  <div class="hero-list">
+    <div class="hero-item">
+      <img src="" alt="ANGELA">
+      <a href="#">ANGELA</a>
+    </div>
+    <div class="hero-item">
+      <img src="" alt="RAFAELA">
+      <a href="#">RAFAELA</a>
+    </div>
+    <div class="hero-item">
+      <img src="" alt="DIGGIE">
+      <a href="#">DIGGIE</a>
+    </div>
+    <div class="hero-item">
+      <img src="" alt="MATHILDA">
+      <a href="#">MATHILDA</a>
+    </div>
+    <div class="hero-item">
+      <img src="" alt="CARMILLA">
+      <a href="#">CARMILLA</a>
+    </div>
+    <div class="hero-item">
+      <img src="" alt="ESTES">
+      <a href="#">ESTES</a>
+    </div>
+  </div>
+</main>
+
+<footer>© 2025 YUI SCRIPT | All Rights Reserved</footer>
+</body>
+</html>

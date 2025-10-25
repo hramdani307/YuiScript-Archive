@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tank Scripts — YUI SCRIPT</title>
+<style>
+/* === GRID NAVIGASI === */
+.nav-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  gap: 10px;
+  max-width: 700px;
+  margin: 20px auto;
+}
+.nav-grid a {
+  display: block;
+  background: #0078D7;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  padding: 12px 0;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: all 0.25s ease;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+.nav-grid a:hover, .nav-grid a.active {
+  background: #005bb5;
+  transform: translateY(-3px);
+  box-shadow: 0 4px 10px rgba(0,120,215,0.4);
+}
+
+/* === HERO GRID === */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f9;
+  text-align: center;
+  padding: 20px;
+  color: #2c3e50;
+}
+h1 a {
+  color: #2c3e50;
+  text-decoration: none;
+}
+h2 {
+  margin-top: 30px;
+}
+.hero-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 30px;
+}
+.hero-item {
+  width: 180px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  text-align: center;
+  padding: 10px;
+  transition: all 0.3s ease;
+}
+.hero-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(0,120,215,0.5);
+}
+.hero-item img {
+  width: 100%;
+  border-radius: 6px;
+}
+.hero-item a {
+  display: block;
+  margin-top: 8px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #0078D7;
+}
+.hero-item a:hover {
+  text-decoration: underline;
+}
+footer {
+  margin-top: 40px;
+  font-size: 14px;
+  color: #888;
+}
+</style>
+</head>
+<body>
+<header>
+  <h1><a href="index.html">YUI SCRIPT</a></h1>
+
+  <!-- 🔹 Navigasi Grid -->
+  <div class="nav-grid">
+    <a href="assassin.html">Assassin</a>
+    <a href="fighter.html">Fighter</a>
+    <a href="mage.html">Mage</a>
+    <a href="marksman.html">Marksman</a>
+    <a href="tank.html" class="active">Tank</a>
+    <a href="support.html">Support</a>
+  </div>
+</header>
+
+<main>
+  <h2>Tank Scripts</h2>
+
+  <div class="hero-list">
+    <div class="hero-item"><img alt="AKAI" src="https://static.wikia.nocookie.net/mobile-legends/images/9/9d/Hero091-portrait.png"><a href="https://namablogkamu.blogspot.com/2025/05/akai-build.html" target="_blank">AKAI</a></div>
+    <div class="hero-item"><img alt="ATLAS" src="https://static.wikia.nocookie.net/mobile-legends/images/7/7c/Hero931-portrait.png"><a href="https://namablogkamu.blogspot.com/2025/05/atlas-build.html" target="_blank">ATLAS</a></div>
+    <div class="hero-item"><img alt="BARATS" src="https://static.wikia.nocookie.net/mobile-legends/images/0/0f/Hero991-portrait.png"><a href="https://namablogkamu.blogspot.com/2025/05/barats-build.html" target="_blank">BARATS</a></div>
+    <div class="hero-item"><img alt="BAXIA" src="https://static.wikia.nocookie.net/mobile-legends/images/d/d0/Hero871-portrait.png"><a href="https://namablogkamu.blogspot.com/2025/05/baxia-build.html" target="_blank">BAXIA</a></div>
+    <div class="hero-item"><img alt="BELERICK" src="https://static.wikia.nocookie.net/mobile-legends/images/8/8d/Hero701-portrait.png"><a href="https://namablogkamu.blogspot.com/2025/05/belerick-build.html" target="_blank">BELERICK</a></div>
+    <div class="hero-item"><img alt="EDITH" src="https://static.wikia.nocookie.net/mobile-legends/images/4/47/Hero1111-portrait.png"><a href="https://namablogkamu.blogspot.com/2025/05/edith-build.html" target="_blank">EDITH</a></div>
+    <div class="hero-item"><img alt="FRANCO" src="https://static.wikia.nocookie.net/mobile-legends/images/b/b3/Hero101-portrait.png"><a href="https://namablogkamu.blogspot.com/2025/05/franco-build.html" target="_blank">FRANCO</a></div>
+    <div class="hero-item"><img alt="GATOTKACA" src="https://static.wikia.nocookie.net/mobile-legends/images/b/ba/Hero411-portrait.png"><a href="https://namablogkamu.blogspot.com/2025/05/gatotkaca-build.html" target="_blank">GATOTKACA</a></div>
+    <div class="hero-item"><img alt="GLOO" src="https://static.wikia.nocookie.net/mobile-legends/images/1/12/Hero1041-portrait.png"><a href="https://namablogkamu.blogspot.com/2025/05/gloo-build.html" target="_blank">GLOO</a></div>
+    <div class="hero-item"><img alt="GROCK" src="https://static.wikia.nocookie.net/mobile-legends/images/9/95/Hero441-portrait.png"><a href="https://namablogkamu.blogspot.com/2025/05/grock-build.html" target="_blank">GROCK</a></div>
+    <div class="hero-item"><img alt="HYLOS" src="https://static.wikia.nocookie.net/mobile-legends/images/1/1e/Hero491-portrait.png"><a href="https://namablogkamu.blogspot.com/2025/05/hylos-build.html" target="_blank">HYLOS</a></div>
+    <div class="hero-item"><img alt="JOHNSON" src="https://static.wikia.nocookie.net/mobile-legends/images/4/4a/Hero321-portrait.png"><a href="https://namablogkamu.blogspot.com/2025/05/johnson-build.html" target="_blank">JOHNSON</a></div>
+    <div class="hero-item"><img alt="KHUFRA" src="https://static.wikia.nocookie.net/mobile-legends/images/0/0f/Hero781-portrait.png"><a href="https://yuiscript.blogspot.com/2025/10/khufra-script.html" target="_blank">KHUFRA</a></div>
+    <div class="hero-item"><img alt="LOLITA" src="https://static.wikia.nocookie.net/mobile-legends/images/2/20/Hero201-portrait.png"><a href="https://namablogkamu.blogspot.com/2025/05/lolita-build.html" target="_blank">LOLITA</a></div>
+    <div class="hero-item"><img alt="MINOTAUR" src="https://static.wikia.nocookie.net/mobile-legends/images/9/9f/Hero191-portrait.png"><a href="https://namablogkamu.blogspot.com/2025/05/minotaur-build.html" target="_blank">MINOTAUR</a></div>
+    <div class="hero-item"><img alt="TIGREAL" src="https://static.wikia.nocookie.net/mobile-legends/images/b/b8/Hero061-portrait.png"><a href="https://yuiscript.blogspot.com/2025/10/tigreal-script.html" target="_blank">TIGREAL</a></div>
+    <div class="hero-item"><img alt="URANUS" src="https://static.wikia.nocookie.net/mobile-legends/images/b/bb/Hero591-portrait.png"><a href="https://namablogkamu.blogspot.com/2025/05/uranus-build.html" target="_blank">URANUS</a></div>
+  </div>
+</main>
+
+<footer>© 2025 YUI SCRIPT | All Rights Reserved</footer>
+</body>
+</html>

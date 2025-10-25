@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mage Scripts — YUI SCRIPT</title>
+<link rel="stylesheet" href="style.css">
+<style>
+/* === GRID NAVIGASI === */
+.nav-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  gap: 10px;
+  max-width: 700px;
+  margin: 20px auto;
+}
+.nav-grid a {
+  display: block;
+  background: #0078D7;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  padding: 12px 0;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: all 0.25s ease;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+.nav-grid a:hover, .nav-grid a.active {
+  background: #005bb5;
+  transform: translateY(-3px);
+  box-shadow: 0 4px 10px rgba(0,120,215,0.4);
+}
+
+/* === HERO GRID === */
+.hero-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 40px;
+}
+.hero-item {
+  width: 180px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  text-align: center;
+  padding: 10px;
+  transition: all 0.3s ease;
+}
+.hero-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(0,120,215,0.5);
+}
+.hero-item img {
+  width: 100%;
+  border-radius: 6px;
+}
+.hero-item a {
+  display: block;
+  margin-top: 8px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #0078D7;
+}
+.hero-item a:hover {
+  text-decoration: underline;
+}
+</style>
+</head>
+
+<body>
+<header>
+  <h1><a href="index.html">YUI SCRIPT</a></h1>
+
+  <!-- 🔹 Navigasi Grid -->
+  <div class="nav-grid">
+    <a href="assassin.html">Assassin</a>
+    <a href="fighter.html">Fighter</a>
+    <a href="mage.html" class="active">Mage</a>
+    <a href="marksman.html">Marksman</a>
+    <a href="tank.html">Tank</a>
+    <a href="support.html">Support</a>
+  </div>
+</header>
+
+<main>
+  <h2>Mage Scripts</h2>
+
+  <!-- 🧭 Hero List Section -->
+  <div class="hero-list">
+    <!-- Mage Heroes -->
+    <div class="hero-item"><img alt="ALICE" src="https://static.wikia.nocookie.net/mobile-legends/images/8/88/Hero041-portrait.png"><a href="#">ALICE</a></div>
+    <div class="hero-item"><img alt="AURORA" src="https://static.wikia.nocookie.net/mobile-legends/images/3/30/Hero361-portrait.png"><a href="#">AURORA</a></div>
+    <div class="hero-item"><img alt="CYCLOPS" src="https://static.wikia.nocookie.net/mobile-legends/images/0/09/Hero331-portrait.png"><a href="#">CYCLOPS</a></div>
+    <div class="hero-item"><img alt="EUDORA" src="https://static.wikia.nocookie.net/mobile-legends/images/a/ab/Hero151-portrait.png"><a href="#">EUDORA</a></div>
+    <div class="hero-item"><img alt="GORD" src="https://static.wikia.nocookie.net/mobile-legends/images/a/a7/Hero231-portrait.png"><a href="#">GORD</a></div>
+    <div class="hero-item"><img alt="KAGURA" src="https://static.wikia.nocookie.net/mobile-legends/images/8/8e/Hero251-portrait.png"><a href="#">KAGURA</a></div>
+    <div class="hero-item"><img alt="HARLEY" src="https://static.wikia.nocookie.net/mobile-legends/images/8/81/Hero421-portrait.png"><a href="#">HARLEY</a></div>
+    <div class="hero-item"><img alt="VEXANA" src="https://static.wikia.nocookie.net/mobile-legends/images/3/36/Hero381-portrait.png"><a href="https://yuiscript.blogspot.com/2025/10/vexana-script.html" target="_blank">VEXANA</a></div>
+    <div class="hero-item"><img alt="PHARSA" src="https://static.wikia.nocookie.net/mobile-legends/images/a/a2/Hero521-portrait.png"><a href="https://yuiscript.blogspot.com/2025/09/pharsa-starlight-script.html" target="_blank">PHARSA</a></div>
+    <div class="hero-item"><img alt="XAVIER" src="https://static.wikia.nocookie.net/mobile-legends/images/e/e0/Hero1151-portrait.png"><a href="https://yuiscript.blogspot.com/2025/10/xavier-script.html" target="_blank">XAVIER</a></div>
+    <div class="hero-item"><img alt="NOVARIA" src="https://static.wikia.nocookie.net/mobile-legends/images/d/d5/Hero1191-portrait.png"><a href="https://yuiscript.blogspot.com/2025/10/novaria-script.html" target="_blank">NOVARIA</a></div>
+    <div class="hero-item"><img alt="ANGELA" src="https://static.wikia.nocookie.net/mobile-legends/images/6/6b/Hero551-portrait.png"><a href="https://yuiscript.blogspot.com/2025/10/angela-script.html" target="_blank">ANGELA</a></div>
+    <div class="hero-item"><img alt="VALENTINA" src="https://static.wikia.nocookie.net/mobile-legends/images/1/12/Hero1101-portrait.png"><a href="#">VALENTINA</a></div>
+    <div class="hero-item"><img alt="VALE" src="https://static.wikia.nocookie.net/mobile-legends/images/c/c7/Hero661-portrait.png"><a href="#">VALE</a></div>
+    <div class="hero-item"><img alt="HARITH" src="https://static.wikia.nocookie.net/mobile-legends/images/3/36/Hero731-portrait.png"><a href="#">HARITH</a></div>
+    <div class="hero-item"><img alt="KADITA" src="https://static.wikia.nocookie.net/mobile-legends/images/e/e8/Hero751-portrait.png"><a href="#">KADITA</a></div>
+    <div class="hero-item"><img alt="SELENA" src="https://static.wikia.nocookie.net/mobile-legends/images/a/a4/Hero631-portrait.png"><a href="#">SELENA</a></div>
+    <div class="hero-item"><img alt="ZHUXIN" src="https://static.wikia.nocookie.net/mobile-legends/images/9/9f/Hero1251-portrait.png"><a href="#">ZHUXIN</a></div>
+    <div class="hero-item"><img alt="ZETIAN" src="https://static.wikia.nocookie.net/mobile-legends/images/f/f7/Hero1291-portrait.png"><a href="#">ZETIAN</a></div>
+  </div>
+</main>
+
+<footer>© 2025 YUI SCRIPT | All Rights Reserved</footer>
+</body>
+</html>
