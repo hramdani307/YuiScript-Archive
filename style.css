@@ -1,136 +1,72 @@
-/* 🌟 Global Aesthetic - Putih Keorenan Style */
-
-body {
-  font-family: 'Poppins', sans-serif;
-  background-color: #fff8f0;
-  color: #333;
-  margin: 0;
-  padding: 0;
+/* Struktur utama post */
+.post {
+  background: #fff9f3;
+  border-radius: 16px;
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  border: 1px solid #f7e0c9;
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
 }
-
-/* 🔸 Navbar */
-.navbar {
-  background: linear-gradient(90deg, #ff9a3c, #ff7b00);
-  color: white;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 14px 40px;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-}
-
-.navbar a {
-  color: white;
-  text-decoration: none;
-  font-weight: 600;
-  font-size: 1rem;
-  margin: 0 12px;
-  transition: opacity 0.2s ease;
-}
-
-.navbar a:hover {
-  opacity: 0.8;
-}
-
-.navbar .brand {
-  font-size: 1.3rem;
-  font-weight: 700;
-  letter-spacing: 1px;
-}
-
-/* 🔸 Judul Utama */
-h1 {
-  text-align: center;
-  font-size: 2.2rem;
-  color: #ff7b00;
-  margin-top: 40px;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-}
-
-/* 🔸 Kontainer tiap post */
-.section {
-  background: #ffffff;
-  border: 2px solid #ffb366;
-  border-radius: 12px;
-  padding: 15px 20px;
-  margin: 20px auto;
-  width: 90%;
-  max-width: 600px;
-  box-shadow: 0 4px 12px rgba(255, 136, 0, 0.15);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-
-.section:hover {
+.post:hover {
   transform: translateY(-3px);
-  box-shadow: 0 6px 16px rgba(255, 136, 0, 0.25);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
 }
 
-.section p {
-  font-size: 1rem;
-  line-height: 1.5;
-  margin: 8px 0;
-}
-
-.link, .btn {
+.post h2 {
+  color: #d47f2a;
+  margin-bottom: 12px;
+  font-size: 1.4rem;
+  font-weight: 700;
+  border-bottom: 2px solid #f4c68b;
   display: inline-block;
-  background-color: #ff7b00;
+  padding-bottom: 4px;
+}
+
+/* Daftar link */
+.download-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.download-list li {
+  margin: 10px 0;
+}
+
+/* Tombol Download */
+.download-list a, .post p a {
+  display: inline-block;
+  background: linear-gradient(135deg, #ffb266, #ff8c2b);
   color: white;
   text-decoration: none;
-  padding: 8px 18px;
-  border-radius: 6px;
   font-weight: 600;
-  transition: background 0.2s ease, transform 0.2s ease;
+  padding: 10px 18px;
+  border-radius: 10px;
+  transition: background 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 2px 5px rgba(255, 140, 43, 0.3);
 }
-
-.link:hover, .btn:hover {
-  background-color: #ff9c33;
+.download-list a:hover, .post p a:hover {
+  background: linear-gradient(135deg, #ff943d, #ff6a00);
   transform: scale(1.05);
 }
 
-p strong {
-  color: #ff7b00;
+/* Info tambahan */
+.post p {
+  margin-top: 8px;
+  font-size: 0.95rem;
+  color: #444;
 }
 
-/* 🔸 Footer */
-footer {
-  background-color: #fff2e6;
-  color: #555;
-  text-align: center;
-  padding: 20px 0;
-  font-size: 0.9rem;
-  border-top: 2px solid #ffcc99;
-  margin-top: 40px;
-}
-
-footer a {
-  color: #ff7b00;
-  text-decoration: none;
-  font-weight: 600;
-}
-
-footer a:hover {
-  text-decoration: underline;
-}
-
-/* 🔸 Responsif HP */
+/* Responsif */
 @media (max-width: 600px) {
-  .navbar {
-    flex-direction: column;
-    padding: 10px 20px;
+  .post {
+    padding: 15px;
   }
-
-  h1 {
-    font-size: 1.8rem;
+  .post h2 {
+    font-size: 1.2rem;
   }
-
-  .section {
-    width: 95%;
-    padding: 12px 16px;
-  }
-
-  .link, .btn {
+  .download-list a {
+    padding: 8px 14px;
     font-size: 0.9rem;
-    padding: 7px 15px;
   }
 }
